@@ -1,0 +1,2 @@
+rootProject.name='MTSS'
+include ':app'
