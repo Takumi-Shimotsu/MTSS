@@ -7,20 +7,151 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
-    <LinearLayout
-        android:layout_width="263dp"
-        android:layout_height="468dp"
-        android:orientation="horizontal"
+
+    <ListView
+        android:id="@+id/listlist"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:divider="#000000"
+        android:dividerHeight="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399">
+        app:layout_constraintVertical_bias="0.604" />
 
-        <ListView
-            android:id="@+id/listlist"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </LinearLayout>
+    <Spinner
+        android:id="@+id/q1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <Spinner
+        android:id="@+id/q2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <Spinner
+        android:id="@+id/q3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_bui"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Spinner
+        android:id="@+id/q4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <Spinner
+        android:id="@+id/q5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <Spinner
+        android:id="@+id/q6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Spinner
+        android:id="@+id/q7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Spinner
+        android:id="@+id/q8"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <Spinner
+        android:id="@+id/q9"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_yesno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/original_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下の質問に答えて、作成ボタンを押してください"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/original_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="オリジナルメニュー作成"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 </android.support.constraint.ConstraintLayout>
