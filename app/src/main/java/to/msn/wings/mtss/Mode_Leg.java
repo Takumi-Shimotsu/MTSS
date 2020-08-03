@@ -1,5 +1,6 @@
 package to.msn.wings.mtss;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -77,5 +78,10 @@ public class Mode_Leg extends AppCompatActivity {
         text_hukura = findViewById(R.id.hukurahagi);
         text_hukura.setTextColor(Color.RED);
 
+    }
+
+    public void btn_leg_search(View v){
+        Intent i = new Intent(this, to.msn.wings.mtss.Original_menu.class);
+        startActivity(i);
     }
 }

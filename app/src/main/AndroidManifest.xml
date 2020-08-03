@@ -28,6 +28,8 @@
 
         <activity android:name=".Mode_Body"></activity>
 
+        <activity android:name=".Original_menu"></activity>
+
 
     </application>
 

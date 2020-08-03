@@ -1,5 +1,6 @@
 package to.msn.wings.mtss;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -104,6 +105,11 @@ public class Mode_Body extends AppCompatActivity {
         text_hukkin = findViewById(R.id.txt_hukkin);
         text_hukkin.setTextColor(Color.RED);
 
+    }
+
+    public void btn_body_search(View v){
+        Intent i = new Intent(this, to.msn.wings.mtss.Original_menu.class);
+        startActivity(i);
     }
 
 }

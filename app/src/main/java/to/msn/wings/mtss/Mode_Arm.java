@@ -1,5 +1,6 @@
 package to.msn.wings.mtss;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -56,5 +57,10 @@ public class Mode_Arm extends AppCompatActivity {
         text_zenwan = findViewById(R.id.txt_zenwan);
         text_zenwan.setTextColor(Color.RED);
 
+    }
+
+    public void btn_arm_search(View v){
+        Intent i = new Intent(this, to.msn.wings.mtss.Original_menu.class);
+        startActivity(i);
     }
 }
