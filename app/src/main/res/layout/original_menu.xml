@@ -22,7 +22,7 @@
 
     <Spinner
         android:id="@+id/q1"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,8 +34,9 @@
 
     <Spinner
         android:id="@+id/q2"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +49,7 @@
         android:id="@+id/q3"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:entries="@array/spinner_bui"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,8 +60,9 @@
 
     <Spinner
         android:id="@+id/q4"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,8 +73,9 @@
 
     <Spinner
         android:id="@+id/q5"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +86,7 @@
 
     <Spinner
         android:id="@+id/q6"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,7 +98,7 @@
 
     <Spinner
         android:id="@+id/q7"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +110,7 @@
 
     <Spinner
         android:id="@+id/q8"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,8 +122,9 @@
 
     <Spinner
         android:id="@+id/q9"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:entries="@array/spinner_yesno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,12 +151,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="オリジナルメニュー作成"
-        android:textStyle="bold"
         android:textSize="15dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.954" />
 </android.support.constraint.ConstraintLayout>
