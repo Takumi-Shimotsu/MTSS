@@ -30,6 +30,7 @@
         android:id="@+id/txt_souboukin"
         android:layout_width="65dp"
         android:layout_height="29dp"
+        android:layout_marginBottom="10dp"
         android:text="僧帽筋"
         android:textColor="#000000"
         android:textSize="20dp"

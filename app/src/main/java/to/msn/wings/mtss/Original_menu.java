@@ -1,6 +1,7 @@
 package to.msn.wings.mtss;
 
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -38,6 +39,11 @@ public class Original_menu extends AppCompatActivity {
             adapter.add(str);
         }
         list.setAdapter(adapter);
+    }
+
+    public void btn_create_original(View v){
+        DialogFragment dialog = new Original_Create_DialogFragment();
+        dialog.show(getSupportFragmentManager(), "original_button");
     }
 
 }

@@ -20,7 +20,7 @@ public class Mode_Select extends AppCompatActivity {
 
     public void taikan_OnClick(View v) {
         DialogFragment dialog = new Mode_Select_DialogFragment_2();
-        dialog.show(getSupportFragmentManager(), "dialog_button");
+        dialog.show(getSupportFragmentManager(), "dialog_button2");
     }
 }
 
