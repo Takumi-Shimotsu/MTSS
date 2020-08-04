@@ -16,19 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Mode_Select">
+        <activity android:name=".Mode_Select"></activity>
 
-        </activity>
-        <activity android:name=".Model_All">
+        <activity android:name=".Model_All"></activity>
 
-        </activity>
+        <activity android:name=".Model_Back_All"></activity>
+
         <activity android:name=".Mode_Leg"></activity>
 
         <activity android:name=".Mode_Arm"></activity>
 
         <activity android:name=".Mode_Body"></activity>
 
+        <activity android:name=".Mode_Back"></activity>
+
         <activity android:name=".Original_menu"></activity>
+
 
 
     </application>

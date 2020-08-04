@@ -4,13 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
 
-public class Model_All extends AppCompatActivity {
-    @Override
+public class Model_Back_All extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.model_all);
+        setContentView(R.layout.model_back_all);
     }
     public void leg_mode(View v){
         Intent i = new Intent(this, to.msn.wings.mtss.Mode_Leg.class);
@@ -22,19 +20,18 @@ public class Model_All extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void body_mode(View v){
-        Intent i = new Intent(this, to.msn.wings.mtss.Mode_Body.class);
+    public void back_mode(View v){
+        Intent i = new Intent(this, to.msn.wings.mtss.Mode_Back.class);
         startActivity(i);
     }
 
     public void btn_right(View v){
-        Intent i = new Intent(this, to.msn.wings.mtss.Model_Back_All.class);
+        Intent i = new Intent(this, to.msn.wings.mtss.Model_All.class);
         startActivity(i);
     }
 
     public void btn_left(View v){
-        Intent i = new Intent(this, to.msn.wings.mtss.Model_Back_All.class);
+        Intent i = new Intent(this, to.msn.wings.mtss.Model_All.class);
         startActivity(i);
     }
-
 }

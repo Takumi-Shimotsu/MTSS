@@ -18,7 +18,9 @@ public class Mode_Select extends AppCompatActivity {
         dialog.show(getSupportFragmentManager(), "dialog_button");
     }
 
-    public void taikan_OnClick(View view) {
+    public void taikan_OnClick(View v) {
+        DialogFragment dialog = new Mode_Select_DialogFragment_2();
+        dialog.show(getSupportFragmentManager(), "dialog_button");
     }
 }
 

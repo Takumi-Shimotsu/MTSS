@@ -8,23 +8,24 @@
     android:background="#ffffff">
 
     <ImageView
-        android:id="@+id/model_all"
-        android:layout_width="364dp"
-        android:layout_height="731dp"
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="648dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/jintai_model_all" />
+        app:layout_constraintTop_toTopOf="@+id/please"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/jintai_back_all" />
 
     <Button
-        android:id="@+id/body_button"
-        android:layout_width="72dp"
-        android:layout_height="114dp"
+        android:id="@+id/back_button"
+        android:layout_width="75dp"
+        android:layout_height="124dp"
+        android:layout_marginEnd="5dp"
         android:alpha="0.1"
-        android:onClick="body_mode"
+        android:onClick="back_mode"
         android:text=" "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +38,8 @@
     <Button
         android:id="@+id/leg_button"
         android:layout_width="86dp"
-        android:layout_height="240dp"
+        android:layout_height="229dp"
+        android:layout_marginEnd="10dp"
         android:alpha="0.1"
         android:onClick="leg_mode"
         android:text=" "
@@ -53,6 +55,7 @@
         android:id="@+id/right_hand"
         android:layout_width="40dp"
         android:layout_height="171dp"
+        android:layout_marginEnd="5dp"
         android:alpha="0.1"
         android:onClick="arm_mode"
         android:rotation="13"
@@ -85,7 +88,7 @@
         android:id="@+id/please"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="鍛えたい部位（上半身、腕、下半身、背中）を\n タップしてください。\nまた背中の場合は、左右のボタンをタップしてください"
+        android:text="鍛えたい部位（上半身、腕、下半身、背中）を\n タップしてください。\nまた上半身の場合は、左右のボタンをタップしてください"
         android:textSize="15dp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -120,5 +123,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.441"
         app:srcCompat="@drawable/left_btn" />
+
 
 </android.support.constraint.ConstraintLayout>
