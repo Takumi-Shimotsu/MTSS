@@ -5,7 +5,7 @@
         <item>いいえ</item>
     </string-array>
     <string-array name="spinner_bui">
-        <item>腕、胸</item>
+        <item>腕、胸,背筋</item>
         <item>腹筋</item>
         <item>上半身</item>
         <item>下半身</item>

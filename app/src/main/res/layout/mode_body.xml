@@ -102,11 +102,11 @@
         app:layout_constraintVertical_bias="0.744" />
 
     <Button
-        android:id="@+id/hukusya"
+        android:id="@+id/kyoukin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn_hukusyakin"
-        android:text="腹斜筋"
+        android:onClick="btn_kyoukin"
+        android:text="胸筋"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,11 +117,11 @@
         app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/kyoukin"
+        android:id="@+id/hukusya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn_kyoukin"
-        android:text="胸筋"
+        android:onClick="btn_hukusyakin"
+        android:text="腹斜筋"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,11 +132,11 @@
         app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/hukkin"
+        android:id="@+id/hukutyoku"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn_hukkin"
-        android:text="腹筋"
+        android:onClick="btn_hukutyoku"
+        android:text="腹直筋"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,11 +162,11 @@
         app:layout_constraintVertical_bias="0.09" />
 
     <Button
-        android:id="@+id/kubi"
+        android:id="@+id/hukkin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btn_kubi"
-        android:text="首"
+        android:onClick="btn_hukkin"
+        android:text="腹筋"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

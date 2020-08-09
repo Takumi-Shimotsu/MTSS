@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void start_onClick(View v){
-        Intent i = new Intent(this, to.msn.wings.mtss.Mode_Select.class);
+        Intent i = new Intent(this, to.msn.wings.mtss.Original_menu.class);
         startActivity(i);
     }
 }

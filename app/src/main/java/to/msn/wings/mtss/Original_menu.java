@@ -17,15 +17,15 @@ import java.util.HashMap;
 public class Original_menu extends AppCompatActivity {
 
 
-    private static final String [] shitumon = {"1. 音を出しても大丈夫",
-            "2. 腕やおなかなどの\n    たるみが気になる",
-            "3. メインで鍛える部位を選択",
-            "4. 週に2日以上運動している",
-            "5. 運動部に所属した経験が\n    ありますか",
-            "6. 20Kg程度(ママチャリなど)を\n    軽く持ち上げることが出来る",
-            "7. 腹筋が20秒間で\n    35回以上できる",
-            "8. 20Kgの段ボールを\n    持ち上げることが出来る",
-            "9. 長距離の移動(10Km程度)を\n    自転車で走っても疲れない"
+    private static final String [] shitumon = {"n1. 腕やおなかなどの\n    たるみが気になる\n",
+            "\n2. 音を出しても大丈夫\n",
+            "\n3. メインで鍛える部位を選択\n",
+            "\n4. 週に2日以上運動している\n",
+            "\n5. 高校時代運動部に所属した\n    経験がありますか\n",
+            "\n6. 20Kg程度(ママチャリなど)を\n    軽く持ち上げることが出来る\n",
+            "\n7. 腹筋が20秒間で\n    35回以上できる\n",
+            "\n8. 20Kgの段ボールを\n    持ち上げることが出来る\n",
+            "\n9. 長距離の移動(10Km程度)を\n    自転車で走っても疲れない\n"
     };
 
     @Override
@@ -33,12 +33,15 @@ public class Original_menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.original_menu);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_item_item_shi);
-        ListView list = findViewById(R.id.listlist);
+        /*ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_item_item_shi);
+        ListView list = findViewById(R.id.shitsumon_list);
         for (String str: shitumon){
             adapter.add(str);
         }
         list.setAdapter(adapter);
+
+         */
+
     }
 
     public void btn_create_original(View v){
