@@ -18,14 +18,14 @@ public class Original_Create_DialogFragment extends DialogFragment {
                 .setPositiveButton("はい", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Intent i = new Intent(getContext(), to.msn.wings.mtss.Model_All.class);
-                                startActivity(i);
+
                             }
                         }
                 ).setNegativeButton("いいえ", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
+                        Intent i = new Intent(getContext(), to.msn.wings.mtss.Original_menu.class);
+                        startActivity(i);
                     }
                 }).create();
     }

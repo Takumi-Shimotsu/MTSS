@@ -32,9 +32,11 @@
 
         <activity android:name=".Original_menu"></activity>
 
-        <activity android:name=".Created_Original"></activity>
+        <activity
+            android:name=".MainFrame"
+            android:screenOrientation="landscape">
 
-
+        </activity>
 
     </application>
 

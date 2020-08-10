@@ -24,9 +24,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="下の質問に答えて、作成ボタンを押してください"
+                android:text="\n下の質問に答えて、作成ボタンを押してください\n"
                 android:textStyle="bold"
-                android:textSize="15dp" />
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,13 +39,14 @@
                     android:layout_width="200dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="TextView" />
+                    android:text="\n目的はスリムになること" />
 
                 <Spinner
                     android:id="@+id/spinner1"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_weight="1"
                     android:entries="@array/spinner_yesno" />
             </LinearLayout>
@@ -58,11 +60,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="音を出すトレーニングでも\n大丈夫\n\n" />
+
                 <Spinner
                     android:id="@+id/spinner2"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_weight="1"
                     android:entries="@array/spinner_yesno" />
             </LinearLayout>
@@ -76,11 +87,73 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="週に2回程度、体を動かす機会がある\n\n" />
+
                 <Spinner
                     android:id="@+id/spinner3"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="1"
+                    android:entries="@array/spinner_yesno" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="高校時代は運動部だった\n" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="1"
+                    android:entries="@array/spinner_yesno" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="メインで鍛える部位を選択\n" />
+
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_weight="1"
                     android:entries="@array/spinner_bui" />
             </LinearLayout>
@@ -95,47 +168,19 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Spinner
-                    android:id="@+id/spinner4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:entries="@array/spinner_yesno" />
-            </LinearLayout>
+                    android:text="20㎏ほどのもの（ママチャリ）を軽く持ち上げることができる\n\n" />
 
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="2dp"
-                android:background="#000000"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Spinner
-                    android:id="@+id/spinner5"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
-                    android:layout_weight="1"
-                    android:entries="@array/spinner_yesno" />
-            </LinearLayout>
-
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="2dp"
-                android:background="#000000"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
                 <Spinner
                     android:id="@+id/spinner6"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_weight="1"
                     android:entries="@array/spinner_yesno" />
             </LinearLayout>
@@ -149,11 +194,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20秒で腹筋が35回できる\n" />
+
                 <Spinner
                     android:id="@+id/spinner7"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_weight="1"
                     android:entries="@array/spinner_yesno" />
             </LinearLayout>
@@ -167,24 +221,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
-                <Spinner
-                    android:id="@+id/spinner8"
+
+                <TextView
+                    android:id="@+id/q9"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:entries="@array/spinner_yesno" />
-            </LinearLayout>
+                    android:text="\n長距離の移動（10km以上）なら歩いてでも行けそう\n" />
 
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="2dp"
-                android:background="#000000"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
                 <Spinner
                     android:id="@+id/spinner9"
                     android:layout_width="match_parent"
@@ -205,6 +249,25 @@
                 android:layout_height="wrap_content"
                 android:text="オリジナルメニュー作成"
                 android:onClick="btn_create_original"/>
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/douga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btn_douga"
+                android:textStyle="bold"
+                android:textSize="30dp">
+            </TextView>
+
+
 
         </LinearLayout>
     </ScrollView>
